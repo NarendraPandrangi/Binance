@@ -1,0 +1,67 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Binance Futures Testnet Bot Output</title>
+  <style>
+    :root { color-scheme: dark; font-family: Inter, Segoe UI, Arial, sans-serif; background: #111318; color: #eef1f7; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: #111318; }
+    main { width: min(1080px, calc(100% - 64px)); margin: 0 auto; padding: 18px 0; }
+    h1 { margin: 0 0 6px; font-size: 52px; line-height: 1.05; letter-spacing: 0; }
+    .subtitle { margin: 0 0 32px; color: #c5d3f5; font-size: 18px; }
+    .layout { display: grid; grid-template-columns: minmax(0, 1fr) 426px; gap: 20px; align-items: start; }
+    form, .result { border: 1px solid #2c3340; border-radius: 8px; background: #191d25; padding: 20px; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    label { display: grid; gap: 8px; color: #d9e5ff; font-size: 14px; font-weight: 800; }
+    input, select { width: 100%; min-height: 48px; border: 1px solid #3a4352; border-radius: 6px; background: #10131a; color: #fff; padding: 10px 13px; font: inherit; font-weight: 700; }
+    .actions { display: flex; gap: 18px; align-items: center; margin-top: 18px; flex-wrap: wrap; }
+    button { min-height: 48px; border: 0; border-radius: 6px; background: #f0b90b; color: #171717; padding: 0 20px; font: inherit; font-weight: 900; }
+    .dry-run { display: inline-flex; align-items: center; gap: 10px; color: #d6dbea; font-size: 16px; font-weight: 700; }
+    .box { width: 20px; height: 20px; border: 1px solid #858585; border-radius: 3px; background: #4b4b4b; display: inline-block; }
+    .result { min-height: 516px; }
+    .result h2 { margin: 0 0 16px; font-size: 20px; }
+    pre { margin: 0; white-space: pre-wrap; word-break: break-word; color: #fff; font: 14px/1.48 Consolas, Monaco, monospace; }
+    .status { margin: 0 0 14px; color: #8bff8f; font-weight: 900; font-size: 18px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Binance Futures Testnet Bot</h1>
+    <p class="subtitle">Place USDT-M MARKET, LIMIT, and STOP-LIMIT orders using your local .env credentials.</p>
+    <div class="layout">
+      <form>
+        <div class="grid">
+          <label>Symbol<input value="BTCUSDT"></label>
+          <label>Side<select><option>BUY</option></select></label>
+          <label>Order Type<select><option>MARKET</option></select></label>
+          <label>Quantity<input value="0.001"></label>
+        </div>
+        <div class="actions"><button>Submit Order</button><span class="dry-run"><span class="box"></span>Dry run</span></div>
+      </form>
+      <section class="result">
+        <h2>Result</h2>
+        <p class="status">Success</p>
+        <pre>{
+  "success": true,
+  "message": "Order submitted to Binance Futures Testnet.",
+  "request": {
+    "symbol": "BTCUSDT",
+    "side": "BUY",
+    "type": "MARKET",
+    "quantity": "0.001"
+  },
+  "response": {
+    "orderId": 13670148328,
+    "status": "NEW",
+    "executedQty": "0.0000",
+    "avgPrice": "0.00",
+    "clientOrderId": "rHS11E1CsKwmhrNgsBcTcG"
+  }
+}</pre>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
