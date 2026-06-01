@@ -1,3 +1,4 @@
+
 # Binance Futures Testnet Trading Bot
 
 A small Python CLI application for placing orders on the Binance USDT-M Futures Testnet.
@@ -130,3 +131,12 @@ To satisfy the task deliverable, run at least one successful MARKET order and on
 - LIMIT and STOP-LIMIT orders use `GTC` time in force.
 - Quantity and price must be positive numbers.
 - For MARKET orders, Binance may return `avgPrice` as `0.00000` until the order is fully processed by the exchange.
+
+
+Screen Shots 
+1) Web UI : 
+<img width="1829" height="716" alt="Screenshot 2026-06-01 123106" src="https://github.com/user-attachments/assets/621fa801-dc52-46c3-914a-19021289375e" />
+
+2) Logs :
+<img width="1801" height="778" alt="Screenshot 2026-06-01 123030" src="https://github.com/user-attachments/assets/d9c75326-86f7-4a7f-b912-4fbe9b6998ad" />
+<img width="1216" height="718" alt="Screenshot 2026-06-01 122200" src="https://github.com/user-attachments/assets/2ff758a0-dfc7-4766-b3e9-d22ac1f8b836" />
