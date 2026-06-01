@@ -135,8 +135,9 @@ To satisfy the task deliverable, run at least one successful MARKET order and on
 
 Screen Shots 
 1) Web UI : 
-<img width="1829" height="716" alt="Screenshot 2026-06-01 123106" src="https://github.com/user-attachments/assets/621fa801-dc52-46c3-914a-19021289375e" />
+<img width="1216" height="718" alt="Screenshot 2026-06-01 122200" src="https://github.com/user-attachments/assets/2ff758a0-dfc7-4766-b3e9-d22ac1f8b836" />
 
 2) Logs :
 <img width="1801" height="778" alt="Screenshot 2026-06-01 123030" src="https://github.com/user-attachments/assets/d9c75326-86f7-4a7f-b912-4fbe9b6998ad" />
-<img width="1216" height="718" alt="Screenshot 2026-06-01 122200" src="https://github.com/user-attachments/assets/2ff758a0-dfc7-4766-b3e9-d22ac1f8b836" />
+<img width="1829" height="716" alt="Screenshot 2026-06-01 123106" src="https://github.com/user-attachments/assets/621fa801-dc52-46c3-914a-19021289375e" />
+
